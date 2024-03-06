@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SIT 725 Pass Task 1.4</title>
+    <meta name="description" content="Pass Task 1.4">
+    <meta name="author" content="JoeCinNg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h4>Australia's Time Zones</h4>
+        <div class="container-2">
+            <select id="selectedLocation" class="browser-default" onchange="changeTime()"> 
+                <option selected disabled>-- Select a Location --</option> 
+                <option value="Perth">Perth - Western Australia</option> 
+                <option value="Melbourne">Melbourne - Victoria</option> 
+                <option value="Adelaide">Adelaide - South Australia</option> 
+                <option value="Brisbane">Brisbane - Queensland</option> 
+                <option value="Darwin">Darwin - Northern Territory</option> 
+                <option value="Sydney">Sydney - New South Wales</option> 
+                <option value="Canberra">Canberra - Australian Capital Territory</option> 
+            </select> 
+            <div id="locationBox">
+                <h5 id="locationName" class="location-Name">Perth</h5>
+                <h5 id="locationDateTime">March 3, 2024 4:40:00pm</h5>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

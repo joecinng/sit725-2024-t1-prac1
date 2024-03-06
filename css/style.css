@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+}
+
+.container-2 select {
+    margin-right: 10px;
+}
+
+select{
+    width: fit-content;
+}
+
+#locationBox {
+    display: none;
+    border: 1px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.location-Name {
+    color: greenyellow;
+}
+
